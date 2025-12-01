@@ -1,0 +1,84 @@
+# ------------------------
+# Python / Flask Backend
+# ------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Model weights (optional)
+*.h5
+*.keras
+*.pth
+
+# TensorFlow checkpoints and logs
+checkpoint/
+checkpoints/
+logs/
+*.ckpt
+*.pb
+events.out.tfevents.*
+
+# Cached datasets
+*.npz
+*.npy
+
+# Flask runtime files
+instance/
+*.db
+*.sqlite3
+
+# Uploaded and generated images
+backend/static/uploads/
+backend/static/results/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# ------------------------
+# React / Vite Frontend
+# ------------------------
+
+# Dependency directories
+node_modules/
+
+# Vite build output
+dist/
+build/
+
+# Local env files
+.env
+.env.local
+.env.development
+.env.production
+
+# Editor logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.vite/
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
